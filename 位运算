@@ -1,0 +1,20 @@
+public dome1{
+	public static void main(String a[]){
+		System.out.println("false==0 true==1");
+		System.out.println("******位与 & ********");
+		System.out.println((1<2)&(1<2));//1 1 true
+		System.out.println((1<2)&(1>2));//1 0 false
+		System.out.println((1>2)&(1<2));//0 1 false
+		System.out.println((1>2)&(1>2));//0 0 false
+		System.out.println("******异或 ^********");
+		System.out.println((1<2)^(1<2));//1 1 false
+		System.out.println((1<2)^(1>2));//1 0 true
+		System.out.println((1>2)^(1<2));//0 1 true
+		System.out.println((1>2)^(1>2));//0 0 false
+		System.out.println("*******位或 |*******");	
+		System.out.println((1<2)|(1<2));//1 1 true
+		System.out.println((1<2)|(1>2));//1 0 true
+		System.out.println((1>2)|(1<2));//0 1 true
+		System.out.println((1>2)|(1>2));//0 0 false
+}
+}
