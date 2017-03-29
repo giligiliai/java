@@ -16,5 +16,20 @@ public dome1{
 		System.out.println((1<2)|(1>2));//1 0 true
 		System.out.println((1>2)|(1<2));//0 1 true
 		System.out.println((1>2)|(1>2));//0 0 false
+		System.out.println("*******&&*******");	
+		int i=3;//&和&&结果相同
+		System.out.println((0>1)&(i=i+2)>0);//前面条件不满足还是会执行后面
+		System.out.println(i);//i=5
+		i=3;
+		System.out.println((0>1)&&(i=i+2)>0);//&&当前面条件(0<1)满足才会执行后面,不满足不执行
+		System.out.println(i);//i=3
+		System.out.println("*******||*******");	
+		i=3;//|和||结果相同
+		System.out.println((0>1)|(i=i+2)>0);//前面条件不满足还是会执行后面
+		System.out.println(i);//i=5
+		i=3;
+		System.out.println((0>1)||(i=i+2)>0);//&&当前面条件(0<1)满足才会执行后面,不满足不执行
+		System.out.println(i);//i=5
+	}
 }
 }
