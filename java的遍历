@@ -1,0 +1,6 @@
+class z{
+	public static void main(String adfasf[]){
+		int[] a={1,2,3,4,5};
+		for(int aa:a){//for(类型 变量名:待输出的数组(变量名))
+			System.out.println("asdf--"+aa);
+}}}
